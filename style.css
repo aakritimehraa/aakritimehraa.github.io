@@ -1,0 +1,263 @@
+.logoimg{
+    width: 160px;
+}
+
+.searchh{
+    height: 120px;
+    width: 100%;
+background-color: #182642;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+position: relative;
+margin-top: 100px;
+
+}
+
+.inputsearch{
+  padding: 10px;
+  font-size: 20px;
+position: absolute;
+color: white;
+}
+label{
+    text-align: center;
+
+}
+.inputt{
+    width: 300px;
+    height: 40px;
+}
+button{
+    height: 40px;
+
+}
+.navitem{
+    margin-left: 10px;
+    padding: 20px;
+    color: black;
+    border-bottom: 3px solid transparent;
+}
+
+.navv .navitem:hover{
+    border-bottom: 3px solid;
+    border-color: #f38422;
+    color: #f38422;
+
+}
+
+
+.filter{
+    width: 200px;
+}
+.filter a{
+    float: right;
+}
+.filter p{
+    font-size: 1.5rem;
+}
+.form-check{
+    padding: 10px;
+}
+
+.buttonfilter{
+    width: 200px;
+    opacity: 0;
+    display: none;
+}
+
+
+
+.navv{
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+}
+.buttonjob{
+    display: block;
+}
+
+.buttonn{
+    display: none;
+}
+.sidebar{
+    display: block;
+    flex: 0.3;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+
+  }
+  
+  .activee, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    
+  }
+  
+  .activee:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+
+.accordion{
+    display: block;
+position: relative;}
+.job{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.feedback{
+    transform: rotate(270deg);
+    float: right;
+    position: absolute;
+    z-index: 100;
+    right: 0%;
+    top:60%;
+
+   border-right:1px solid green;
+}
+.right{
+    position:absolute;
+    top:30%;
+    left: 20%;
+   
+}
+.sorttt {
+    padding: 10px;
+}
+.jobtitle{
+    color: #09A0DB;
+}
+
+.right ul li{
+list-style: none;
+font-size: 15px;
+display: inline;
+padding: 10px;
+}
+
+.jobdescription{
+    font-size: 20px;
+    width: 70%;
+}
+.jobb{
+    margin-left: 500px;
+    margin-top: -20px;
+}
+.accordianbutton{
+    display: none;
+}
+.accord{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.feedback input{
+    padding: 20px;
+}
+.logoimgg{
+margin-left: 100px;
+}
+
+@media (max-width:800px) {
+    #myDiv{
+    display: none;
+    }
+    .searchh .buttonjob{
+        width: 150px;
+    }
+  .buttonfilter{
+        width: 300px;
+        margin: auto;
+        display: block;
+        opacity: 1;
+    }
+    .inputt{
+        height: 30px;
+        width: 200px;
+        margin-top: 20px;
+    }
+   .inputsearch button{
+font-size: 0.6rem;
+}
+.searchh{
+    display: flex;
+align-items: center;
+}
+.filter{
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.accordion{
+    display: block;
+}
+
+.accord{
+    display: none;
+
+}
+.right{
+position: relative;
+left: 10%;
+margin-top:20px;
+}
+.jobb{
+    display: none;
+}
+.accordianbutton{
+    display: block;
+    width: 100%;
+}
+.feedback{
+    top: 80%;
+}
+}
+
+
+@media (min-width: 768px) {
+    .hide-on-desktop {
+        display:none;
+    }
+}
+
+
+@media (max-width: 801px) {
+    .hide-on-desktop {
+        display:none;
+    }
+    .accordion{
+        display: block !important;
+    }
+}
