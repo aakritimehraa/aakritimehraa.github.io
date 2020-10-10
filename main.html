@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+  <div className='header'>
+    <div class="navv">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class="navbar-brand logoimg" src='download.png' alt="" />
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="navitem active">
+              Find Jobs <span class="sr-only">(current)</span>
+            </li>
+            <li class="navitem">
+              Create your File
+            </li>
+            <li class="navitem ">
+              Recommendations
+            </li>
+            <li class="navitem">
+              Resources
+            </li>
+
+          </ul>
+          <ul class="navbar-nav my-2 my-lg-0">
+
+            <li class="navitem">
+              Sign in
+            </li>
+            <li class="navitem dropdown">
+              <strong class="nav-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="true">
+                Employers
+              </strong>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">one</a>
+                <a class="dropdown-item" href="#">two</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">three</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class='searchh '>
+
+      <div class="inputsearch">
+        <label>Job vaccancies</label><br>
+
+        <input class="inputt" type="text" placeholder="search"><input class='inputt' type="text" placeholder="location">
+        <button type="button" class='btn-primary'>Find jobs</button>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="job">
+    <div class="sidebar" id='sidebarr'>
+
+      <div class="filter">
+
+        <button class="accordion" id="panell">Date</button>
+        <div class="panel">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              one
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              two
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              three </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              four </label>
+          </div>
+        </div>
+<hr />
+
+        <button class="accordion" id="panell">category</button>
+        <div class="panel">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              one
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              two
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              three
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              four
+            </label>
+          </div>
+        </div>
+
+<hr />
+        <button class="accordion" id="panell">job type</button>
+        <div class="panel">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              one
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              two
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              three
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              four
+            </label>
+          </div>
+        </div>
+        <button class="accord" id='accords'>show filters</button>
+
+
+      </div>
+    </div>
+    <button class="accordianbutton" id='bb' onclick="myFunction()">filter job</button>
+    <div class="right">
+      <button class="btn btn-outline-primary">Email me jobs like this</button>
+
+      <p class="sorttt">
+        Sort by: relevence | date
+
+      </p>
+
+      <h2 class="jobtitle">Sr software dev</h2><sub><i class="fa fa-clock-o" aria-hidden="true"></i>
+
+
+        posted 10 days ago</sub><img class="jobb" src="download (1).png" alt='' />
+      <br><br>
+      <ul>
+        <li><i class="fa fa-building-o" aria-hidden="true"></i>
+          UST Glogal</li>
+        <li> <i class="fa fa-map-marker" aria-hidden="true"></i>
+          Hyderabad
+        </li>
+        <li> <i class="fa fa-cloud" aria-hidden="true"></i>
+          full time</li>
+      </ul>
+      <p class="jobdescription">Sr devOps Engineer for ust Global hyderabad. Work with various departments to create and
+        develop systems within a company.</p>
+      <button class="btn btn-primary">Apply</button>
+    </div>
+
+    
+
+  </div>
+
+  </div>
+  <div class="feedback " data-toggle="modal" data-target="#exampleModalCenter">
+
+    feedback
+
+  </div>
+
+
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img class="logoimg logoimgg" src='download.png' alt='' />
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <option selected>English uk</option>
+            <option value="1">English aus</option>
+            <option value="2">English us</option>
+            <option value="3">hindi</option>
+          </select>
+          <h3>What kind of feedback?</h3>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Suggestions
+              </label>
+
+              complaint </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Suggestions
+              </label>
+
+              complaint </label>
+            </div>
+          </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">submit</button>
+
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+
+
+    $("#bb").click(function () {
+      $("#sidebarr").toggle();
+    });
+    function myFunction() {
+      var x = document.getElementById("bb");
+      if (x.innerHTML === "show filters") {
+        x.innerHTML = "filter job";
+      } else {
+        x.innerHTML = "show filters";
+      }
+    }
+
+
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("activee");
+        var panel = this.nextElementSibling;
+        if (!panel.style.maxHeight) {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+
+        } else {
+          panel.style.maxHeight = null;
+        }
+      });
+    }
+
+
+
+
+
+
+  </script>
+</body>
+
+</html>
